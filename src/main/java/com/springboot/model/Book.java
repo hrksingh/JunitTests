@@ -21,8 +21,7 @@ public class Book {
 	@NotNull 
 	private int bookPrice;
 	
-	
-	
+
 	public Book() {
 		super();
 		// TODO Auto-generated constructor stub
