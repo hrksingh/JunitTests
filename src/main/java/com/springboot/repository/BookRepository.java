@@ -7,6 +7,5 @@ import com.springboot.model.Book;
 
 @Repository
 public interface BookRepository  extends JpaRepository<Book, Long>{
-	
 
 }
