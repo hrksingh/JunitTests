@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.springboot.Exception.BookNotFoundException;
 import com.springboot.model.Book;
-import com.springboot.repository.BookRepository;
 import com.springboot.service.BookCRUDService;
 
 @RestController
@@ -36,7 +36,8 @@ public class BookController {
 	}
 
 	// Create a new Book
-	@PostMapping("/books")
+	@PostMapping("/createBook")
+	@ResponseBody
 	public Book createBook(@RequestBody Book book) {
 		return bookService.saveBook(book); 
 	}

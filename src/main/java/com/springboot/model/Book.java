@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 import com.sun.istack.NotNull;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -19,6 +20,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@EqualsAndHashCode
 public class Book {
 
 	@Id
