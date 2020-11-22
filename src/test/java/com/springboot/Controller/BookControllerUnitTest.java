@@ -28,7 +28,7 @@ import com.springboot.model.Book;
 import com.springboot.service.BookCRUDService;;
 
 @WebMvcTest
-class BookControllerUnitTest {
+public class BookControllerUnitTest {
 
 	@Autowired
 	private MockMvc mockMvc;

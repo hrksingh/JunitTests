@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+   <books book_id = "1" book_author="Thanos" book_name="Head First Java" book_price="1000" />
+   <books book_id = "2" book_author="Hrk" book_name="DBUnit Test" book_price="2000" />
+   <books book_id = "3" book_author="Wolf" book_name="Junit Test" book_price="3000" />
+   <books book_id = "4" book_author="Payal" book_name="Spring Boot" book_price="4000" />
+</dataset>

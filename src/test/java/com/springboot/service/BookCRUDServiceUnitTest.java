@@ -33,7 +33,7 @@ import com.springboot.repository.BookRepository;
 
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest(webEnvironment = WebEnvironment.NONE)
-class BookCRUDServiceUnitTest {
+public class BookCRUDServiceUnitTest {
 
 	@Mock
 	private BookRepository bookRepository;
